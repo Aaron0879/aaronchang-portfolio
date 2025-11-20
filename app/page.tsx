@@ -502,7 +502,7 @@ const Portfolio = () => {
             
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Let's Work Together</h2>
             <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-              I am currently available for full-time opportunities. Whether you have a question or just want to say hi, my inbox is always open.
+              I am currently available for full-time opportunities. Whether you have questions or just want to say hi, my inbox is always open.
             </p>
             
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-10">
