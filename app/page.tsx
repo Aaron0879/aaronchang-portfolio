@@ -178,7 +178,7 @@ const Portfolio = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {['About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item) => (
+            {['About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item) => (
               <button 
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -223,8 +223,8 @@ const Portfolio = () => {
               <span className="w-2 h-2 bg-blue-600 rounded-full mr-2 animate-pulse"></span>
               Full-Stack Developer
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900">
-              Hi, I'm <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-blue-700">Aaron</span>
+            <h1 className="text-5xl md:text-5xl font-bold tracking-tight text-gray-900">
+              Hi, I'm <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-blue-700">Aaron Chang</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 font-light">
               {personalInfo.role}
@@ -528,7 +528,8 @@ const Portfolio = () => {
                 <Send className="mr-2 h-4 w-4" /> Say Hello
               </a>
               <a 
-                href="#" 
+                href="/Aaron-Chang-CV.pdf" 
+                download="Aaron-Chang-CV.pdf"
                 className="px-8 py-3 border border-gray-300 hover:border-blue-400 text-gray-700 hover:text-blue-600 rounded-lg font-medium transition-all flex items-center"
               >
                 <Download className="mr-2 h-4 w-4" /> Download CV
