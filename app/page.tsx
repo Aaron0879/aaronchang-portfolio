@@ -160,7 +160,7 @@ const Portfolio = () => {
     },
     {
       title: "Mobile Appointment Booking System",
-      tech: ["React Native", "Firebase", "Node.js"],
+      tech: ["Flutter", "Firebase", "Node.js"],
       description: "Built mobile application enabling users to schedule appointments efficiently. Provides flexibility to choose preferred doctor, time, and location with integrated single platform for streamlined booking.",
       icon: <Smartphone size={20} />
     },
