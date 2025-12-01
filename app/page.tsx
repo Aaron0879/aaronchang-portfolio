@@ -115,9 +115,9 @@ const projects: ProjectItem[] = [
     icon: <Smartphone size={24} />
   },
   {
-    title: "Stateless E-Commerce Platform",
-    tech: ["Laravel", "Cloudflare R2", "Railway", "Stripe"],
-    description: "High-performance web shop architected for zero egress fees. Decoupled assets to Object Storage and implemented automated CI/CD pipelines.",
+    title: "Full-Stack Wesite",
+    tech: ["Laravel", "Cloudflare R2", "Railway", "Billplz"],
+    description: "Developed a full-stack Laravel web application with WhatsApp Bot API, Instagram integration, payment gateway and real-time communications. Deployed on Laravel Cloud with SSL/HTTPS, configured CI/CD pipeline for automated testing and deployment",
     icon: <Globe size={24} />
   },
   {
