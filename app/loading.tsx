@@ -8,7 +8,7 @@ export default function Loading() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 3500); // Show for 3.5 seconds
+    }, 6000); // Show for 6 seconds
 
     return () => clearTimeout(timer);
   }, []);
@@ -41,10 +41,10 @@ export default function Loading() {
           />
 
           {/* A - Stylized */}
-          <g style={{ animation: 'drawSig 2s ease-in-out forwards' }}>
+          <g style={{ animation: 'drawSig 3s ease-in-out forwards' }}>
             <path
               d="M 60 220 L 90 80 L 120 220 M 70 160 L 110 160"
-              stroke="#1e40af"
+              stroke="#000000"
               strokeWidth="4"
               fill="none"
               strokeLinecap="round"
@@ -52,16 +52,16 @@ export default function Loading() {
               strokeDasharray="200"
               strokeDashoffset="200"
               style={{
-                animation: 'drawLine 1.8s ease-in-out forwards',
+                animation: 'drawLine 2.8s ease-in-out forwards',
               }}
             />
           </g>
 
           {/* A - Stylized */}
-          <g style={{ animation: 'drawSig 2s ease-in-out 0.2s forwards' }}>
+          <g style={{ animation: 'drawSig 3s ease-in-out 0.4s forwards' }}>
             <path
               d="M 150 220 L 180 80 L 210 220 M 160 160 L 200 160"
-              stroke="#1e40af"
+              stroke="#000000"
               strokeWidth="4"
               fill="none"
               strokeLinecap="round"
@@ -69,16 +69,16 @@ export default function Loading() {
               strokeDasharray="200"
               strokeDashoffset="200"
               style={{
-                animation: 'drawLine 1.8s ease-in-out forwards',
+                animation: 'drawLine 2.8s ease-in-out forwards',
               }}
             />
           </g>
 
           {/* R - Flowing style */}
-          <g style={{ animation: 'drawSig 2s ease-in-out 0.4s forwards' }}>
+          <g style={{ animation: 'drawSig 3s ease-in-out 0.8s forwards' }}>
             <path
               d="M 245 220 L 245 80 L 280 80 Q 310 80 310 110 Q 310 140 280 140 L 245 140 M 280 140 Q 320 140 330 220"
-              stroke="#1e40af"
+              stroke="#000000"
               strokeWidth="4"
               fill="none"
               strokeLinecap="round"
@@ -86,16 +86,16 @@ export default function Loading() {
               strokeDasharray="250"
               strokeDashoffset="250"
               style={{
-                animation: 'drawLine 1.8s ease-in-out forwards',
+                animation: 'drawLine 2.8s ease-in-out forwards',
               }}
             />
           </g>
 
           {/* O - Circular elegant */}
-          <g style={{ animation: 'drawSig 2s ease-in-out 0.6s forwards' }}>
+          <g style={{ animation: 'drawSig 3s ease-in-out 1.2s forwards' }}>
             <path
               d="M 355 100 Q 390 100 390 150 Q 390 200 355 220 Q 320 220 320 150 Q 320 100 355 100"
-              stroke="#1e40af"
+              stroke="#000000"
               strokeWidth="4"
               fill="none"
               strokeLinecap="round"
@@ -103,16 +103,16 @@ export default function Loading() {
               strokeDasharray="220"
               strokeDashoffset="220"
               style={{
-                animation: 'drawLine 1.8s ease-in-out forwards',
+                animation: 'drawLine 2.8s ease-in-out forwards',
               }}
             />
           </g>
 
           {/* N - Diagonal flowing */}
-          <g style={{ animation: 'drawSig 2s ease-in-out 0.8s forwards' }}>
+          <g style={{ animation: 'drawSig 3s ease-in-out 1.6s forwards' }}>
             <path
               d="M 415 220 L 415 80 L 460 220 L 460 80"
-              stroke="#1e40af"
+              stroke="#000000"
               strokeWidth="4"
               fill="none"
               strokeLinecap="round"
@@ -120,7 +120,7 @@ export default function Loading() {
               strokeDasharray="250"
               strokeDashoffset="250"
               style={{
-                animation: 'drawLine 1.8s ease-in-out forwards',
+                animation: 'drawLine 2.8s ease-in-out forwards',
               }}
             />
           </g>
@@ -128,7 +128,7 @@ export default function Loading() {
           {/* Decorative flourish underline */}
           <path
             d="M 60 240 Q 150 260 280 240 Q 350 230 460 245"
-            stroke="#1e40af"
+            stroke="#000000"
             strokeWidth="2"
             fill="none"
             strokeLinecap="round"
