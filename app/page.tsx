@@ -60,7 +60,7 @@ const skills = {
   languages: ["TypeScript", "JavaScript", "PHP", "Dart", "Python", "SQL", "Java", "C++"],
   frontend: ["React", "Next.js", "React Native", "Tailwind CSS", "GSAP", "Flutter", "Bootstrap"],
   backend: ["Laravel", "Node.js", "Express.js", "MySQL", "Firebase", "PostgreSQL"],
-  devops: ["Docker", "CI/CD", "AWS S3", "Cloudflare R2", "Railway", "Vercel", "Git"], // Added DevOps category
+  devops: [ "CI/CD", "AWS S3", "Cloudflare R2", "Railway", "Vercel", "Git"], // Added DevOps category
   ai: ["OpenAI API", "TensorFlow", "ML Kit", "OpenCV"]
 };
 
@@ -350,22 +350,18 @@ const Portfolio = () => {
               <h2 className="text-3xl font-bold mb-6 text-slate-900">More Than Just Code</h2>
               <div className="space-y-4 text-slate-600 text-lg leading-relaxed">
                 <p>
-                  I don't just write functions; I build <strong className="text-blue-600">solutions</strong>. My approach to software engineering is rooted in efficiency and scalability.
+                  I focus on building practical <strong className="text-blue-600">solutions</strong> that work. I believe in writing clean code and architecting systems that are both efficient and maintainable.
                 </p>
                 <p>
-                  While many fresh graduates are just learning to deploy, I have already architected stateless systems on <strong>Railway</strong> and <strong>Laravel Cloud</strong>, utilizing object storage to minimize OpEx for clients.
+                  I've had the opportunity to work with stateless architectures on <strong>Railway</strong> and <strong>Laravel Cloud</strong>, and I've learned how object storage can help optimize costs. I'm always exploring better ways to solve problems.
                 </p>
                 <p>
-                  From fixing critical race conditions in legacy codebases to building offline-first mobile apps for warehouse operations, I thrive on solving the "hard" problems that impact business bottom lines.
+                  I've worked on various projects ranging from maintaining legacy systems to building mobile apps for warehouse operations. I enjoy solving complex problems and learning from every project.
                 </p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <div className="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-md transition-all">
-                <h3 className="text-4xl font-bold text-blue-600 mb-2">3+</h3>
-                <p className="font-medium text-slate-800">Years Experience</p>
-                <p className="text-sm text-slate-500">Accelerated Learning</p>
-              </div>
+
               <div className="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-md transition-all">
                 <h3 className="text-4xl font-bold text-blue-600 mb-2">10+</h3>
                 <p className="font-medium text-slate-800">Projects Delivered</p>
