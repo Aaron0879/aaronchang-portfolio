@@ -1,24 +1,8 @@
-'use client';
-
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 export default function Loading() {
-  const [isVisible, setIsVisible] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(false);
-    }, 6000); // Show for 6 seconds
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (!isVisible) {
-    return null;
-  }
-
   return (
-    <div className="fixed inset-0 bg-white flex items-center justify-center z-50 overflow-hidden">
+    <div className="fixed inset-0 bg-white flex items-center justify-center z-50 overflow-hidden" style={{ animation: 'fadeOutDelayed 7s ease-in-out forwards' }}>
       <div className="relative w-full h-full flex items-center justify-center">
         <svg
           width="500"
@@ -171,6 +155,21 @@ export default function Loading() {
           100% {
             opacity: 1;
             transform: scale(1);
+          }
+        }
+
+        @keyframes fadeOutDelayed {
+          0% {
+            opacity: 1;
+            visibility: visible;
+          }
+          99% {
+            opacity: 1;
+            visibility: visible;
+          }
+          100% {
+            opacity: 0;
+            visibility: hidden;
           }
         }
       `}</style>
