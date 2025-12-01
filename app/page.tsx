@@ -279,20 +279,7 @@ const Portfolio = () => {
               </a>
             </div>
 
-            <div className="flex items-center gap-6 text-slate-500 pt-4">
-              <div className="flex items-center gap-2">
-                <Globe size={18} className="text-blue-500" />
-                <span className="text-sm font-medium">Stateless Architecture</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Smartphone size={18} className="text-blue-500" />
-                <span className="text-sm font-medium">Mobile First</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Cpu size={18} className="text-blue-500" />
-                <span className="text-sm font-medium">AI Integration</span>
-              </div>
-            </div>
+
           </div>
 
           {/* Enhanced Code Visual */}
