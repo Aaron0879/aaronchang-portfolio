@@ -363,7 +363,7 @@ const Portfolio = () => {
             <div className="grid grid-cols-2 gap-4">
 
               <div className="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-md transition-all">
-                <h3 className="text-4xl font-bold text-blue-600 mb-2">10+</h3>
+                <h3 className="text-4xl font-bold text-blue-600 mb-2">5+</h3>
                 <p className="font-medium text-slate-800">Projects Delivered</p>
                 <p className="text-sm text-slate-500">Web & Mobile</p>
               </div>
