@@ -496,9 +496,9 @@ const Portfolio = () => {
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '32px 32px' }}></div>
             
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 relative z-10">Ready to Accelerate Your Team?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 relative z-10">Let's Work Together</h2>
             <p className="text-blue-100 mb-10 max-w-xl mx-auto text-lg relative z-10">
-              I am currently available for immediate hiring. Let's discuss how my full-stack skills can add value to your projects from day one.
+              I'm open to new opportunities. If you think we might be a good fit, I'd love to discuss potential collaborations.
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
