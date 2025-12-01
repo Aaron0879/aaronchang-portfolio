@@ -59,7 +59,7 @@ const skills = {
   // Grouped slightly differently for better logical flow
   languages: ["TypeScript", "JavaScript", "PHP", "Dart", "Python", "SQL", "Java", "C++"],
   frontend: ["React", "Next.js", "React Native", "Tailwind CSS", "GSAP", "Flutter", "Bootstrap"],
-  backend: ["Laravel", "Node.js", "Express.js", "MySQL", "Firebase", "PostgreSQL"],
+  backend: ["Laravel", "Node.js", "Express.js", "MySQL", "Firebase"],
   devops: [ "CI/CD", "AWS S3", "Cloudflare R2", "Railway", "Vercel", "Git"], // Added DevOps category
   ai: ["OpenAI API", "TensorFlow", "ML Kit", "OpenCV"]
 };
